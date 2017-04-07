@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="./js/bxslider/jquery.bxslider.min.css" /><!-- bxSlider CSS file -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+    <body>
+        <div class="page-container">
+            <div class="pane upper-third shadow">
+                <img class="img-responsive logo" src="./images/HG_logo_white-400x400.png" />
+            </div>
+            <div class="pane lower-third">
+                <ul class="bxslider">
+                    <li>
+                        <div class="title">Прямой Эфир</div>
+                        <div class="subtitle blue">Церковь "Дом Божий" - Ванкувер</div>
+                    </li>
+                    <li>
+                        <div class="title">Live Video Feed</div>
+                        <div class="subtitle blue">Church "Home of God" - Vancouver</div>
+                    </li>
+                </ul>
+                <div class="web-address">www.homeofgod.org</div>
+            </div>
+        </div>
+
+        <script src="./js/jquery-3.2.0.min.js"></script>
+        <script src="./js/bxslider/jquery.bxslider.min.js"></script><!-- bxSlider Javascript file -->
+        <script>
+            $(document).ready(function() {
+                // Slider in lower third
+                $('.bxslider').bxSlider({
+                    speed: 1500,
+                    pause: 9000,
+                    pager: false,
+                    auto: true,
+                    controls: false
+                });
+            });
+        </script>
+    </body>
+</html>
