@@ -66,6 +66,17 @@ body {
     z-index: -10;
 }
 
+.upper-header {
+    text-align: left;
+}
+
+.date {
+    padding: 40px 80px;
+    font-size: 1.75em;
+    color: #fff;
+    display: inline-block;
+}
+
 .bx-wrapper {
     -moz-box-shadow: 0 0 0px #ccc;
     -webkit-box-shadow: 0 0 0px #ccc;
