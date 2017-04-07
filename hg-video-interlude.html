@@ -36,6 +36,10 @@
         <script src="./js/bxslider/jquery.bxslider.min.js"></script><!-- bxSlider Javascript file -->
         <script>
             $(document).ready(function() {
+                var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                var today  = new Date();
+                $('.date').html(today.toLocaleDateString("en-US",options));
+
                 // Slider in lower third
                 $('.bxslider').bxSlider({
                     speed: 1500,
