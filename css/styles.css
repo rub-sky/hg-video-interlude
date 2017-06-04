@@ -1,9 +1,5 @@
 html {
-    background: url('./../images/building_blur.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #efefef;
 }
 
 body {
@@ -21,22 +17,26 @@ body {
     background-image: url('./../images/HG_logo_white-400x400.png') no-repeat;
     margin: 0 auto;
     float: none;
-    margin-bottom: 45px;
-    height: 30vh;/*24em; 48%;*/
+    height: 35vh;/*24em; 48%;*/
+    margin-bottom: 45px;    
 }
 
 .shadow {
-    /*-webkit-box-shadow: 0px 8px 71px -16px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 8px 71px -16px rgba(0,0,0,0.75);
-    box-shadow: 0px 8px 71px -16px rgba(0,0,0,0.75);*/
     -webkit-box-shadow: 0px -16px 65px 21px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px -16px 65px 21px rgba(0,0,0,0.75);
     box-shadow: 0px -16px 65px 21px rgba(0,0,0,0.75);
 }
 
 .page-container {
-    height: 99%;
+    height: 100%;
+    width: 100%;
+    width: 100vw;
     display: block;
+    background: url('./../images/building_blur.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .pane {
@@ -50,6 +50,7 @@ body {
     position: relative;
     height: 70%;
     vertical-align: bottom;
+    z-index: 10;
     text-align: center;
 }
 
@@ -69,7 +70,7 @@ body {
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: left center;
-    z-index: -10;
+    vertical-align: middle;
 }
 
 .upper-header {
@@ -78,7 +79,7 @@ body {
 
 .date {
     padding: 60px 100px;
-    font-size: 2.25em;
+    font-size: 2.25vw;
     color: #fff;
     display: inline-block;
     opacity: 0.5;
@@ -90,38 +91,30 @@ body {
     box-shadow: 0 0 0px #ccc;
     border: none;
     background: none;
+    margin-bottom: 0px;
+    padding-top: 40px;
 }
 
 .title {
-    padding-top: 35px;
-}
-
-.title {
-    margin-top: 20px;
     margin-bottom: 0;
-    font-size: 7.75em;
+    font-size: 7.05vw;
     font-weight: bolder;
-    line-height: 0.9em;
+    line-height: 0.8em;
 }
 
 .subtitle {
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 3.0em;
+    font-size: 2.75vw;
     font-weight: 200;
 }
 
 .web-address {
-    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     vertical-align: bottom;
-    padding-bottom: 30px;
-}
-
-.web-address {
-    font-size: 2.25em;
+    font-size: 2vw;
     font-weight: 100;
 }
 
