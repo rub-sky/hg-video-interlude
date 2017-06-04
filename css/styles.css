@@ -66,10 +66,6 @@ body {
     height: 30%;
     vertical-align: middle;
     background-color: #efefef;
-    background-image: url('./../images/dotted-world-light.png');
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: left center;
     vertical-align: middle;
 }
 
@@ -107,6 +103,34 @@ body {
     margin-bottom: 10px;
     font-size: 2.75vw;
     font-weight: 200;
+}
+
+.light-font {
+    color: #efefef;
+}
+
+.dark {
+    background-color: #3f3f3f;
+}
+
+.semi-transparent {
+    opacity: 50%;
+}
+
+.world-dot-light {
+    background-color: #efefef;
+    background-image: url('./../images/dotted-world-light.png');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: left center;
+}
+
+.world-dot-dark {
+    background-color: #3f3f3f;
+    background-image: url('./../images/dotted-world-dark.png');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: left center;
 }
 
 .web-address {
